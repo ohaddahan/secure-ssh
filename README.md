@@ -4,7 +4,7 @@
 
 1. Create new user `useradd -m  username`.
 2. Set password `passwd username`.
-3. **Optional**: Add user to sudoers `usermod -aG sudo username`.
+3. **_Optional_**: Add user to sudoers `usermod -aG sudo username`.
 4. Edit `/etc/ssh/ssh_config` or `/etc/ssh/sshd_config` and add:
 ```bash
 # Authentication:
@@ -44,13 +44,13 @@ ssh-keygen
 10. Install [fail2ban](https://github.com/fail2ban/fail2ban) or [sshguard](https://www.sshguard.net/) to ban IPs that fail to authenticate after a certain number of attempts.
 
 # References
-* [13 Ways to secure SSH server](https://www.makeuseof.com/improve-your-linux-server-security-with-these-hardening-steps/).
+* [13 Ways to secure SSH server](https://www.makeuseof.com/improve-your-linux-server-security-with-these-hardening-steps/)
 * [How To Set up SSH Keys on a Linux / Unix System](https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/)
-* [sshd_config](https://linux.die.net/man/5/sshd_config).
-* [ssh_config](https://linux.die.net/man/5/ssh_config).
-* [ssh-keygen](https://linux.die.net/man/1/ssh-keygen).
-* [useradd](https://linux.die.net/man/8/useradd).
-* [passwd](https://linux.die.net/man/1/passwd).
-* [usermod](https://linux.die.net/man/8/usermod).
-* [fail2ban](https://github.com/fail2ban/fail2ban).
-* [sshguard](https://www.sshguard.net/).
+* [sshd_config](https://linux.die.net/man/5/sshd_config)
+* [ssh_config](https://linux.die.net/man/5/ssh_config)
+* [ssh-keygen](https://linux.die.net/man/1/ssh-keygen)
+* [useradd](https://linux.die.net/man/8/useradd)
+* [passwd](https://linux.die.net/man/1/passwd)
+* [usermod](https://linux.die.net/man/8/usermod)
+* [fail2ban](https://github.com/fail2ban/fail2ban)
+* [sshguard](https://www.sshguard.net/)
